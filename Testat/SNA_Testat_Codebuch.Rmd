@@ -1,0 +1,100 @@
+---
+title: "SNATestat_Codebuch"
+author: "Antonia Zwicker, az047"
+date: "16.07.2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+
+
+##Daten
+Alle Daten sind auf github unter https://github.com/az047/SNA/tree/main/Testat  zu finden und kommen von der Webseite https://www.stuttgarts-schoenster-sport.de/team/spielerinnen
+
+##Edge-Attribute
+from:
+entspricht der id der Notelist und die Knoten sind die jeweiligen Spielerinnen.
+
+to:
+der ehemalige Verein oder das Heimatsland der Spielerinnen.
+
+relation:
+gibt das Verhältniss der jeweiligen Spielerin zu dem jeweiligen Knoten an.
+1=Der ehemalige Verein der Spielerinnen
+2=Das Heimatsland der Spielerinnen
+
+
+
+##Node-Attribue
+id:
+Identifikation des jeweiligen Knotens. Dieser kann eine Spielerin, ein Verein oder ein Land sein.
+
+name:
+Vollständiger Name der Spielerin, des Vereines oder des Landes.
+
+type:
+definiert den Typ des Knotens.
+1=Spielerin
+2=Organisation (Verein/Land)
+
+birth:
+Das Geburtsjahr der jeweiligen Spielerin.
+
+age:
+
+
+position:
+Die Spielposition der jeweiligen Spielerin.
+1=Mittelblock
+2=Zuspiel
+3=Außenangriff
+4=Diagonal
+5=Libera
+
+number:
+Die Rückennummer der jeweiligen Spielerin.
+
+country:
+Das Heimatslander der jeweiligen Spielerin.
+1=Deutschland
+2=Niederlande
+3=Bulgarien
+4=Belgien
+5=Polen
+6=Spanien
+7=Finnland
+8=Vereingite Staaten von Amerika
+
+height:
+Die Körpergröße der jeweiligen Spielerin in cm
+
+
+
+
+
+
+
