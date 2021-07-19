@@ -65,6 +65,11 @@ birth:
 Das Geburtsjahr der jeweiligen Spielerin.
 
 age:
+1=unter 21 und 21
+2=22 bis 24
+3=25 bis 27
+4=28 bis 29
+5=30 und über
 
 
 position:
