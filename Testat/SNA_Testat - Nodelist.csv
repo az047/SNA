@@ -2,8 +2,8 @@ id,name,type,birth,age,position,number,country,height
 JL,Juliet Lohuis,1,1996,3,1,4,2,190
 MT,Mira Todorova,1,1994,3,1,17,3,187
 ET,Eline Timmerman,1,1998,2,1,,2,191
-HK,Hannah Kohn,1,2003,1,2,1,,182
-IV,Ilka Van de Vyver,1,1993,4,,4,4,179
+HK,Hannah Kohn,1,2003,1,2,1,1,182
+IV,Ilka Van de Vyver,1,1993,4,2,4,4,179
 JN,Julia Nowicka,1,1998,2,2,,5,174
 SL,Simone Lee,1,1996,3,3,10,8,188
 MSP,Maria Segura Palleres,1,1992,4,3,3,6,185
